@@ -39,8 +39,8 @@ btnNo.addEventListener("click", () => {
   btnSi2.addEventListener("click", () => {
     pantalla.innerHTML = `
       <img src="abrazo.gif" alt="abrazo" class="gif">
-      <h1>¡Abrazo virtual enviado! 🤗</h1>
-      <p>Que tengas un día lleno de luz ✨</p>
+      <h1>¡Abrazo virtual enviado con todo mi cariño! 💖</h1>
+      <p>Que este abrazo te recuerde lo especial que eres 🌟</p>
     `;
   });
 
@@ -48,4 +48,5 @@ btnNo.addEventListener("click", () => {
     moverAleatoriamente(e.target);
     sonido.play();
   });
+
 });
